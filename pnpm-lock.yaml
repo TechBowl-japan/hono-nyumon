@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@hono/node-server':
         specifier: ^1.19.7
-        version: 1.19.7(hono@4.10.8)
+        version: 1.19.7(hono@4.12.4)
       drizzle-orm:
         specifier: ^0.45.1
         version: 0.45.1(gel@2.2.0)(postgres@3.4.7)
       hono:
-        specifier: ^4.10.8
-        version: 4.10.8
+        specifier: ^4.12.4
+        version: 4.12.4
       postgres:
         specifier: ^3.4.7
         version: 3.4.7
@@ -1326,8 +1326,8 @@ packages:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
 
-  hono@4.10.8:
-    resolution: {integrity: sha512-DDT0A0r6wzhe8zCGoYOmMeuGu3dyTAE40HHjwUsWFTEy5WxK1x2WDSsBPlEXgPbRIFY6miDualuUDbasPogIww==}
+  hono@4.12.4:
+    resolution: {integrity: sha512-ooiZW1Xy8rQ4oELQ++otI2T9DsKpV0M6c6cO6JGx4RTfav9poFFLlet9UMXHZnoM1yG0HWGlQLswBGX3RZmHtg==}
     engines: {node: '>=16.9.0'}
 
   ignore@5.3.2:
@@ -1360,9 +1360,9 @@ packages:
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
-  isexe@3.1.1:
-    resolution: {integrity: sha512-LpB/54B+/2J5hqQ7imZHfdU31OlgQqx7ZicVlkm9kzg9/w8GKLEcFfJl/t7DCEDueOyBAD6zCCwTO6Fzs0NoEQ==}
-    engines: {node: '>=16'}
+  isexe@3.1.5:
+    resolution: {integrity: sha512-6B3tLtFqtQS4ekarvLVMZ+X+VlvQekbe4taUkf/rhVO3d/h0M2rfARm/pXLcPEsjjMsFgrFgSrhQIxcSVrBz8w==}
+    engines: {node: '>=18'}
 
   js-yaml@4.1.1:
     resolution: {integrity: sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==}
@@ -1493,6 +1493,11 @@ packages:
 
   semver@7.7.3:
     resolution: {integrity: sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==}
+    engines: {node: '>=10'}
+    hasBin: true
+
+  semver@7.7.4:
+    resolution: {integrity: sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -2014,9 +2019,9 @@ snapshots:
       - eslint-plugin-import
       - supports-color
 
-  '@hono/node-server@1.19.7(hono@4.10.8)':
+  '@hono/node-server@1.19.7(hono@4.12.4)':
     dependencies:
-      hono: 4.10.8
+      hono: 4.12.4
 
   '@humanfs/core@0.19.1': {}
 
@@ -2694,7 +2699,7 @@ snapshots:
       '@petamoriken/float16': 3.9.3
       debug: 4.4.3
       env-paths: 3.0.0
-      semver: 7.7.3
+      semver: 7.7.4
       shell-quote: 1.8.3
       which: 4.0.0
     transitivePeerDependencies:
@@ -2719,7 +2724,7 @@ snapshots:
 
   has-flag@4.0.0: {}
 
-  hono@4.10.8: {}
+  hono@4.12.4: {}
 
   ignore@5.3.2: {}
 
@@ -2744,7 +2749,7 @@ snapshots:
 
   isexe@2.0.0: {}
 
-  isexe@3.1.1:
+  isexe@3.1.5:
     optional: true
 
   js-yaml@4.1.1:
@@ -2876,6 +2881,9 @@ snapshots:
       fsevents: 2.3.3
 
   semver@7.7.3: {}
+
+  semver@7.7.4:
+    optional: true
 
   shebang-command@2.0.0:
     dependencies:
@@ -3044,7 +3052,7 @@ snapshots:
 
   which@4.0.0:
     dependencies:
-      isexe: 3.1.1
+      isexe: 3.1.5
     optional: true
 
   why-is-node-running@2.3.0:

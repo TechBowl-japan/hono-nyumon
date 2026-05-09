@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@hono/node-server':
         specifier: ^1.19.13
-        version: 1.19.13(hono@4.12.16)
+        version: 1.19.13(hono@4.12.18)
       drizzle-orm:
         specifier: ^0.45.2
         version: 0.45.2(gel@2.2.0)(postgres@3.4.7)
       hono:
-        specifier: ^4.12.16
-        version: 4.12.16
+        specifier: ^4.12.18
+        version: 4.12.18
       postgres:
         specifier: ^3.4.7
         version: 3.4.7
@@ -1502,8 +1502,8 @@ packages:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
 
-  hono@4.12.16:
-    resolution: {integrity: sha512-jN0ZewiNAWSe5khM3EyCmBb250+b40wWbwNILNfEvq84VREWwOIkuUsFONk/3i3nqkz7Oe1PcpM2mwQEK2L9Kg==}
+  hono@4.12.18:
+    resolution: {integrity: sha512-RWzP96k/yv0PQfyXnWjs6zot20TqfpfsNXhOnev8d1InAxubW93L11/oNUc3tQqn2G0bSdAOBpX+2uDFHV7kdQ==}
     engines: {node: '>=16.9.0'}
 
   ignore@5.3.2:
@@ -1676,8 +1676,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  semver@7.7.4:
-    resolution: {integrity: sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==}
+  semver@7.8.0:
+    resolution: {integrity: sha512-AcM7dV/5ul4EekoQ29Agm5vri8JNqRyj39o0qpX6vDF2GZrtutZl5RwgD1XnZjiTAfncsJhMI48QQH3sN87YNA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -2277,9 +2277,9 @@ snapshots:
       - eslint-plugin-import
       - supports-color
 
-  '@hono/node-server@1.19.13(hono@4.12.16)':
+  '@hono/node-server@1.19.13(hono@4.12.18)':
     dependencies:
-      hono: 4.12.16
+      hono: 4.12.18
 
   '@humanfs/core@0.19.1': {}
 
@@ -2995,7 +2995,7 @@ snapshots:
       '@petamoriken/float16': 3.9.3
       debug: 4.4.3
       env-paths: 3.0.0
-      semver: 7.7.4
+      semver: 7.8.0
       shell-quote: 1.8.3
       which: 4.0.0
     transitivePeerDependencies:
@@ -3020,7 +3020,7 @@ snapshots:
 
   has-flag@4.0.0: {}
 
-  hono@4.12.16: {}
+  hono@4.12.18: {}
 
   ignore@5.3.2: {}
 
@@ -3183,7 +3183,7 @@ snapshots:
 
   semver@7.7.3: {}
 
-  semver@7.7.4:
+  semver@7.8.0:
     optional: true
 
   shebang-command@2.0.0:

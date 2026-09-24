@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@hono/node-server':
         specifier: ^1.19.13
-        version: 1.19.13(hono@4.12.34)
+        version: 1.19.13(hono@4.13.5)
       drizzle-orm:
         specifier: ^0.45.2
         version: 0.45.2(gel@2.2.0(supports-color@7.2.0))(postgres@3.4.7)
       hono:
-        specifier: ^4.12.34
-        version: 4.12.34
+        specifier: ^4.13.5
+        version: 4.13.5
       postgres:
         specifier: ^3.4.7
         version: 3.4.7
@@ -1530,8 +1530,8 @@ packages:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
 
-  hono@4.12.34:
-    resolution: {integrity: sha512-GqXJqY/xJkJmuloTrnV1ZEXG3fqte+VjkUqoRNZXcrUidiUOP4fMSIHHY4tsqZBK++kVyWmt/AAfSUuy57/eSA==}
+  hono@4.13.5:
+    resolution: {integrity: sha512-O6+/eCYRkzzzy0rPWwKLiGBR1nFuUPZynnwjxN1MBA62NNqbT0wQEzQyK2gSO5yDIDB336sXQleAhOHrzlYyKw==}
     engines: {node: '>=16.9.0'}
 
   ignore@5.3.2:
@@ -2313,9 +2313,9 @@ snapshots:
       - eslint-plugin-import
       - supports-color
 
-  '@hono/node-server@1.19.13(hono@4.12.34)':
+  '@hono/node-server@1.19.13(hono@4.13.5)':
     dependencies:
-      hono: 4.12.34
+      hono: 4.13.5
 
   '@humanfs/core@0.19.1': {}
 
@@ -3064,7 +3064,7 @@ snapshots:
 
   has-flag@4.0.0: {}
 
-  hono@4.12.34: {}
+  hono@4.13.5: {}
 
   ignore@5.3.2: {}
 
